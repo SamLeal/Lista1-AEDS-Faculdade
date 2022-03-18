@@ -4,6 +4,8 @@
 
 int main()
 {
+    //Calcule a média aritmética de quatro números inteiros dados
+
     int num1, num2, num3, num4;
     float media;
 

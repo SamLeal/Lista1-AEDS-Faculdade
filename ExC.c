@@ -1,5 +1,7 @@
 int main()
 {
+    //Faça um algoritmo que receba 3 (três) notas e seus respectivos pesos, calcule e mostre a média ponderada das notas.
+
     float nota1, nota2, nota3, peso1, peso2, peso3, media;
     
     printf("Digite a primeira nota:");

@@ -4,7 +4,7 @@
 
 int main()
 {
-
+    //Leia um número e imprima seu sucessor.
   int numero, sucessor;
   setlocale(LC_ALL, "portuguese-brazilian");
   printf("Digite o numero:");
