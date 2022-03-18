@@ -7,7 +7,7 @@ int main()
   //Faça um algoritmo que peça ao usuário a base e a altura e calcule a área de um triangulo.
 
   float base, altura, area;
-  setlocale(LC_ALL, "portuguese-brazilian");
+  setlocale(LC_ALL, "portuguese");
 
   printf("Digite a base do triangulo:");
   scanf("%f", &base);

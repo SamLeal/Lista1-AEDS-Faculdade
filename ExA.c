@@ -6,7 +6,7 @@ int main()
 {
     //Leia um número e imprima seu sucessor.
   int numero, sucessor;
-  setlocale(LC_ALL, "portuguese-brazilian");
+  setlocale(LC_ALL, "portuguese");
   printf("Digite o numero:");
   scanf("%i", &numero);
   sucessor = numero + 1;

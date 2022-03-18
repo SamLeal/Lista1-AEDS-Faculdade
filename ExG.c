@@ -8,6 +8,7 @@ int main()
   // Faça um algoritmo que receba o peso do Saco de ração e a quantidade de ração fornecida para cada gato. Calcule e mostre quanto restará de ração no saco após 5 (cinco) dias.
 
   float pesoRacao, quantRacao, restoRacao;
+  setlocale(LC_ALL, "portuguese");
 
   printf("Digite o peso do saco de ração: ");
   scanf("%f", &pesoRacao);
@@ -19,4 +20,3 @@ int main()
   printf("A quantidade restante de ração no quinto dia será: %f", restoRacao);
 
 }
-
