@@ -4,8 +4,18 @@
 
 int main()
 {
+  //Faça um algoritmo que receba o salário de um funcionário e o percentual de aumento, calcule e mostre o novo salário.
 
-  int numero, sucessor;
-  setlocale(LC_ALL, "portuguese-brazilian");
+  float salarioAtual, percAumento, salarioNovo;
+  setlocale(LC_ALL, "portuguese-");
+
+  printf("Digite o salario atual:");
+  scanf("%f", &salarioAtual);
+  printf("Digite o percentual de aumento:");
+  scanf("%f",&percAumento);
+
+  salarioNovo = ((percAumento/100)*salarioAtual)+salarioAtual;
+
+  printf("O seu novo salario é: R$%.2f", salarioNovo);
   
 }
