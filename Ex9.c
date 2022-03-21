@@ -5,15 +5,17 @@
 int main()
 {
     //  ) ler dois valores inteiros do teclado e dizer se o primeiro é par e positivo, e o segundo é ímpar e negativo
-  int x, y;
+  int numero, numero2, intervalo;
+  setlocale(LC_ALL, "portuguese");
 
-  printf("digite x: ");
-  scanf("%i", &x);
-  printf("digite y: ");
-  scanf("%i", &y);
-  
-  printf("x>y: %i", x > y);
-  printf("\nx=y: %i", x == y);
-  printf("\nx<y: %i", x < y);
+  printf("Digite o numero: ");
+  scanf("%i", &numero);
+  printf("Digite o numero: ");
+  scanf("%i", &numero2);
+
+  intervalo = ((0 == numero%2) && (numero>0)) && (-1 == numero2%2);
+
+  printf("%i", intervalo);
+
   return 0;
 }
