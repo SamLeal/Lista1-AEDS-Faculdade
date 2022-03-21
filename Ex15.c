@@ -7,14 +7,10 @@ int main()
     // ler um valor literal (caractere) do teclado e dizer se é uma letra maiúscula.
     char x;
 
-    printf("Digite o caracter: ");
+    printf("Digite o caracter:");
     scanf("%c", &x);
 
-    if( 64<x && x<90){
-        printf("Maiusculo");
-    } else{
-        printf("Minusculo");
-    }
+    printf("E maiusculo? %i", 64<x && x<91);
 
     return 0;
 }
