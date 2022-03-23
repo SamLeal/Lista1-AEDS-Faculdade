@@ -2,16 +2,32 @@
 #include <stdlib.h>
 #include <locale.h>
 
+int main() {
+  ExA();
+  ExB();
+  ExC();
+  ExD();
+  ExE();
+  ExF();
+  ExG();
+  ExH();
+  ExI();
+  ExJ();
+  
+}
+
 int ExA()
 {
     //Leia um número e imprima seu sucessor.
   int numero, sucessor;
   setlocale(LC_ALL, "portuguese");
+
   printf("Digite o numero:");
   scanf("%i", &numero);
   sucessor = numero + 1;
   printf("O sucessor do numero é: %i", sucessor);
 
+  printf("\n");
   return 0;
 }
 
@@ -32,6 +48,8 @@ int ExB()
     media = (num1+num2+num3+num4)/4;
 
     printf("A média é: %.2f", media);
+
+    printf("\n");
     return 0;
 }
 
@@ -40,6 +58,7 @@ int ExC()
     //Faça um algoritmo que receba 3 (três) notas e seus respectivos pesos, calcule e mostre a média ponderada das notas.
 
     float nota1, nota2, nota3, peso1, peso2, peso3, media;
+    setlocale(LC_ALL, "portuguese");
     
     printf("Digite a primeira nota:");
     scanf("%f",&nota1);
@@ -57,6 +76,8 @@ int ExC()
     media =((nota1*peso1)+(nota2*peso2)+(nota3*peso3))/(peso1+peso2+peso3);
 
     printf("A media ponderada e: %.2f", media);
+
+    printf("\n");
     return 0;
 }
 
@@ -73,6 +94,9 @@ int ExD()
 
   printf("%.1f celsius é igual a %.1f fahrenheit:", cel, fah);
   //Quando se coloca  5celsius se espera 41fahrenheit.
+
+  printf("\n");
+  return 0;
 }
 
 int ExE()
@@ -80,7 +104,7 @@ int ExE()
   //Faça um algoritmo que receba o salário de um funcionário e o percentual de aumento, calcule e mostre o novo salário.
 
   float salarioAtual, percAumento, salarioNovo;
-  setlocale(LC_ALL, "portuguese-");
+  setlocale(LC_ALL, "portuguese");
 
   printf("Digite o salario atual:");
   scanf("%f", &salarioAtual);
@@ -90,6 +114,9 @@ int ExE()
   salarioNovo = ((percAumento/100)*salarioAtual)+salarioAtual;
 
   printf("O seu novo salario é: R$%.2f", salarioNovo);
+
+  printf("\n");
+  return 0;
   
 }
 
@@ -108,6 +135,9 @@ int ExF()
   area =  (base*altura)/2;
 
   printf("A área do triangulo é: %.2f", area);
+
+  printf("\n");
+  return  0;
 
 }
 
@@ -147,6 +177,9 @@ int ExH()
     b = teste;
 
     printf("O valor de A é: %i. E o de B é: %i.", a,b);
+
+    printf("\n");
+    return 0;
   
 }
 
@@ -163,13 +196,16 @@ int ExI()
     resto = (a%7);
 
     printf("O resto de %i por 7 é: %i.", a, resto);
+
+    printf("\n");
+    return 0;
 }
 
-int ExJ()
-{
+int ExJ(){
  //Calcular a soma dos termos de uma P.A. lendo os valores do primeiro termo, do segundo termo e do número de termos.
 
     float termo1, termo2, quantTermos, nesimo, soma;
+    setlocale(LC_ALL, "portuguese");
 
     printf("Digite o primeiro termo: ");
     scanf("%f",&termo1);
@@ -183,5 +219,8 @@ int ExJ()
     soma = quantTermos*(termo1+nesimo)/2;
 
     printf("A soma dos termos da PA é: %.2f", soma);
+
+    printf("\n");
+    return 0;
 
 }

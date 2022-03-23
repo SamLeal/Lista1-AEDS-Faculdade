@@ -2,6 +2,24 @@
 #include <stdlib.h>
 #include <locale.h>
 
+int  main(){
+  Ex1();
+  Ex2();
+  Ex3();
+  Ex4();
+  Ex5();
+  Ex6();
+  Ex7();
+  Ex8();
+  Ex9();
+  Ex10();
+  Ex11();
+  Ex12();
+  Ex13();
+  Ex14();
+  Ex15();
+}
+
 int Ex1(){
     // Ler um valor inteiro do teclado e dizer se é par.
   int numero, par;
@@ -14,6 +32,7 @@ int Ex1(){
 
   printf("%i", par);
 
+  printf("\n");
   return 0;
 }
 
@@ -29,6 +48,7 @@ int Ex2(){
 
   printf("%i", impar);
 
+  printf("\n");
   return 0;
 }
 
@@ -45,6 +65,7 @@ int Ex3()
 
   printf("%i", impar);
 
+  printf("\n");
   return 0;
 }
 
@@ -61,6 +82,7 @@ int Ex4()
 
   printf("%i", imparPar);
 
+  printf("\n");
   return 0;
 }
 
@@ -77,6 +99,7 @@ int Ex5()
 
   printf("%i", intervalo);
 
+  printf("\n");
   return 0;
 }
 
@@ -94,6 +117,7 @@ int Ex6()
 
   printf("%i", intervalo);
 
+  printf("\n");
   return 0;
 }
 
@@ -110,6 +134,7 @@ int Ex7()
 
   printf("%i", intervalo);
 
+  printf("\n");
   return 0;
 }
 
@@ -128,6 +153,7 @@ int Ex8()
 
   printf("%i", intervalo);
 
+  printf("\n");
   return 0;
 }
 
@@ -146,6 +172,7 @@ int Ex9()
 
   printf("%i", intervalo);
 
+  printf("\n");
   return 0;
 }
 
@@ -163,7 +190,8 @@ int Ex10()
   printf("x>y: %i", x > y);
   printf("\nx=y: %i", x == y);
   printf("\nx<y: %i", x < y);
-  
+
+  printf("\n");
   return 0;
 }
 
@@ -182,6 +210,7 @@ int Ex11()
 
   printf("%i esta entre %i e %i: %i", x, y, z, x>y && x<z);
   
+  printf("\n");
   return 0;
 }
 
@@ -199,7 +228,8 @@ int Ex12()
   scanf("%i", &z);
 
   printf("%i esta entre %i e %i: %i", x, y, z, x<y || x>z);
-  
+
+  printf("\n");
   return 0;
 }
 
@@ -219,6 +249,7 @@ int Ex13()
 
     printf("%c esta entre %c e %c: %i", x, y, z, y<x && x<z);
 
+    printf("\n");
     return 0;
 }
 
@@ -229,6 +260,7 @@ int Ex14()
 
     printf("Digite o primeiro caracter: ");
     scanf("%c", &x);
+    fflush (stdin);
     printf("Digite o segundo caracter: ");
     fflush (stdin);
     scanf("%c", &y);
@@ -238,6 +270,7 @@ int Ex14()
 
     printf("Está em ordem crescente: %i", x < y && y < z);
 
+    printf("\n");
     return 0;
 }
 
@@ -251,5 +284,6 @@ int Ex15()
 
     printf("E maiusculo? %i", 64<x && x<91);
 
+    printf("\n");
     return 0;
 }
