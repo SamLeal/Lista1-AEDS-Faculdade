@@ -10,13 +10,17 @@ int main()
   float pesoRacao, quantRacao, restoRacao;
   setlocale(LC_ALL, "portuguese");
 
-  printf("Digite o peso do saco de ração: ");
+  printf("Digite o peso do saco de ração(em/kg): ");
   scanf("%f", &pesoRacao);
-  printf("Digite a quantidade de ração fornecida para cada gato por dia:");
+  printf("Digite a quantidade de ração fornecida para cada gato por dia(em/gramas):");
   scanf("%f", &quantRacao);
 
-  restoRacao = pesoRacao - (quantRacao*5);
+  restoRacao = (pesoRacao) - ((quantRacao/1000)*5);
 
-  printf("A quantidade restante de ração no quinto dia será: %f", restoRacao);
+  printf("A quantidade restante de ração no quinto dia será: %.2f kg.", restoRacao);
+
+  printf("\n");
+  return 0;
+  //Quando o saco de ração pesa 20kg, e os gatos comem 100gramas por dia deve retornar
 
 }

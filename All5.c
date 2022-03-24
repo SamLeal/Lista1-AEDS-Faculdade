@@ -34,6 +34,7 @@ int Ex1(){
 
   printf("\n");
   return 0;
+  // Quando se  digita o numero 4 deve retornar 1. E ao digitar o numero 5 deve retornar 0.
 }
 
 int Ex2(){
@@ -50,6 +51,7 @@ int Ex2(){
 
   printf("\n");
   return 0;
+  // Quando se  digita o numero 4 deve retornar 0. E ao digitar o numero 5 deve retornar 1.
 }
 
 int Ex3()
@@ -67,6 +69,7 @@ int Ex3()
 
   printf("\n");
   return 0;
+  // Ao colocar 101 deve retornar 1. E ao  colocar 2 deve retornar 0.
 }
 
 int Ex4()
@@ -84,6 +87,7 @@ int Ex4()
 
   printf("\n");
   return 0;
+  // Ao colocar 101 deve retornar 1. E ao  colocar 2 deve retornar 1.
 }
 
 int Ex5()
@@ -101,6 +105,7 @@ int Ex5()
 
   printf("\n");
   return 0;
+  // Ao digitar 28 deve retornar 1. Ao digitar 2 deve retornar  0.
 }
 
 
@@ -119,11 +124,12 @@ int Ex6()
 
   printf("\n");
   return 0;
+  // Ao digitar 25 deve retornar 1. Ao digitar 2 deve retornar  0.
 }
 
 int Ex7()
 {
-    //  ler um valor inteiro do teclado e dizer se pertence aos intervalos fechados [15:45] ou [66:99]
+    // ler um valor inteiro do teclado e dizer se pertence aos intervalos fechados [15:45] ou [66:99]
   int numero, intervalo;
   setlocale(LC_ALL, "portuguese");
 
@@ -136,6 +142,7 @@ int Ex7()
 
   printf("\n");
   return 0;
+  // Ao digitar 77 deve retornar 1. Ao digitar 2 deve retornar  0.
 }
 
 int Ex8()
@@ -155,11 +162,12 @@ int Ex8()
 
   printf("\n");
   return 0;
+  // Ao digitar 2 e 1 deve retornar 1. Ao digitar 2 e 4 deve retornar 0.
 }
 
 int Ex9()
 {
-    //  ) ler dois valores inteiros do teclado e dizer se o primeiro é par e positivo, e o segundo é ímpar e negativo
+    // ler dois valores inteiros do teclado e dizer se o primeiro é par e positivo, e o segundo é ímpar e negativo
   int numero, numero2, intervalo;
   setlocale(LC_ALL, "portuguese");
 
@@ -174,11 +182,13 @@ int Ex9()
 
   printf("\n");
   return 0;
+  // Ao digitar 2 e -1 deve retornar 1.
+  // Ao digitar 3 e -4 deve retornar 0.
 }
 
 int Ex10()
 {
-    //  ler dois valores reais do teclado e dizer se o primeiro é maior, menor ou igual ao segundo
+    //  ler dois valores reais do teclado e dizer se o primeiro é maior, menor ou igual ao segundo.
     
   int x, y;
 
@@ -193,11 +203,12 @@ int Ex10()
 
   printf("\n");
   return 0;
+  // Ao digitar 2 e 1 deve retornar 1, 0 e 0.
 }
 
 int Ex11()
 {
-    //ler três valores reais do teclado e dizer se o primeiro está entre os outros dois
+  //ler três valores reais do teclado e dizer se o primeiro está entre os outros dois
     
   int x, y, z;
 
@@ -212,6 +223,8 @@ int Ex11()
   
   printf("\n");
   return 0;
+  // Ao digitar 3, 1 e 5 deve retornar 1.
+  // Ao digitar 1, 3 e 5 deve retornar 0.
 }
 
 int Ex12()
@@ -231,6 +244,8 @@ int Ex12()
 
   printf("\n");
   return 0;
+  // Ao digitar 3, 1 e 5 deve retornar 0.
+  // Ao digitar 1, 3 e 5 deve retornar 1.
 }
 
 int Ex13()
@@ -251,6 +266,8 @@ int Ex13()
 
     printf("\n");
     return 0;
+    //Ao digitar b, a e c deve retornar 1.
+    //Ao digitar a, b e c deve retornar 0.
 }
 
 int Ex14()
@@ -272,11 +289,13 @@ int Ex14()
 
     printf("\n");
     return 0;
+    //Ao digitar a, b e c deve retornar 1.
+    //Ao digitar b, a e c deve retornar 0.
 }
 
 int Ex15()
 {
-    // ler um valor literal (caractere) do teclado e dizer se é uma letra maiúscula.
+    //ler um valor literal (caractere) do teclado e dizer se é uma letra maiúscula.
     char x;
 
     printf("Digite o caracter:");
@@ -286,4 +305,6 @@ int Ex15()
 
     printf("\n");
     return 0;
+    //Ao digitar A deve retornar 1.
+    //Ao digitar a deve retornar 0.
 }

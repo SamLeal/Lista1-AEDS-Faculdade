@@ -17,7 +17,7 @@ int main()
 
     nesimo = termo1 + (quantTermos -1) * (termo2 - termo1);
 
-    soma = quantTermos*(termo1+nesimo)/2;
+    soma = quantTermos*(termo1+nesimo)/2.0;
 
     printf("A soma dos termos da PA é: %.2f", soma);
 
