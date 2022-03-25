@@ -2,7 +2,23 @@
 #include <stdlib.h>
 #include <locale.h>
 
-int  main(){
+int Ex1();
+int Ex2();
+int Ex3();
+int Ex4();
+int Ex5();
+int Ex6();
+int Ex7();
+int Ex8();
+int Ex9();
+int Ex10();
+int Ex11();
+int Ex12();
+int Ex13();
+int Ex14();
+int Ex15();
+
+int main(){
   Ex1();
   Ex2();
   Ex3();

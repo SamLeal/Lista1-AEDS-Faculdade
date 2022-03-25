@@ -2,6 +2,17 @@
 #include <stdlib.h>
 #include <locale.h>
 
+int ExA();
+int ExB();
+int ExC();
+int ExD();
+int ExE();
+int ExF();
+int ExG();
+int ExH();
+int ExI();
+int ExJ();
+
 int main()
 {
   ExA();
