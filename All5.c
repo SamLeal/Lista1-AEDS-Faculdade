@@ -206,12 +206,12 @@ int Ex10()
 {
     //  ler dois valores reais do teclado e dizer se o primeiro é maior, menor ou igual ao segundo.
     
-  int x, y;
+  float x, y;
 
   printf("Digite x: ");
-  scanf("%i", &x);
+  scanf("%f", &x);
   printf("Digite y: ");
-  scanf("%i", &y);
+  scanf("%f", &y);
 
   printf("x>y: %i", x > y);
   printf("\nx=y: %i", x == y);
@@ -226,16 +226,16 @@ int Ex11()
 {
   //ler três valores reais do teclado e dizer se o primeiro está entre os outros dois
     
-  int x, y, z;
+  float x, y, z;
 
   printf("Digite o primeiro valor: ");
-  scanf("%i", &x);
+  scanf("%f", &x);
   printf("Digite o segundo valor: ");
-  scanf("%i", &y);
+  scanf("%f", &y);
   printf("Digite o terceiro valor: ");
-  scanf("%i", &z);
+  scanf("%f", &z);
 
-  printf("%i esta entre %i e %i: %i", x, y, z, x>y && x<z);
+  printf("%f esta entre %f e %f: %i", x, y, z, x>y && x<z);
   
   printf("\n");
   return 0;
@@ -247,16 +247,16 @@ int Ex12()
 {
     // ler três valores reais do teclado e dizer se o primeiro não está entre os outros dois
     
-  int x, y, z;
+  float x, y, z;
 
   printf("Digite o primeiro valor: ");
-  scanf("%i", &x);
+  scanf("%f", &x);
   printf("Digite o segundo valor: ");
-  scanf("%i", &y);
+  scanf("%f", &y);
   printf("Digite o terceiro valor: ");
-  scanf("%i", &z);
+  scanf("%f", &z);
 
-  printf("%i esta entre %i e %i: %i", x, y, z, x<y || x>z);
+  printf("%f esta entre %f e %f: %i", x, y, z, x<y || x>z);
 
   printf("\n");
   return 0;
