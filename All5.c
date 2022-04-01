@@ -262,7 +262,7 @@ int Ex12()
   return 0;
   // Ao digitar 3, 1 e 5 deve retornar 0.
   // Ao digitar 1, 3 e 5 deve retornar 1.
-}
+} 
 
 int Ex13()
 {

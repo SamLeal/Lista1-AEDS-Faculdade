@@ -1,3 +1,6 @@
 # ignore all exes
 
 *.exe
+
+All4.c
+All5.c

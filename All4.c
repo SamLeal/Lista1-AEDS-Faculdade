@@ -42,7 +42,7 @@ int ExA()
   return 0;
 
   // Quando se coloca o numero 1 deve retornar o  seu sucessor o numero 2.
-}
+}  
 
 int ExB()
 {
